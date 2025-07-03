@@ -1,9 +1,9 @@
--- problem 1
 CREATE TABLE students (
     LNAME VARCHAR (100), 
     FNAME VARCHAR(100)
     );
 
+-- problem 1
 CREATE TABLE authors(
     author_id INT,
     first_name VARCHAR(100),
