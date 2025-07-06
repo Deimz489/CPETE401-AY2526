@@ -40,7 +40,7 @@ CREATE TABLE appointements(
     appointement_id INT,
     start_time DATETIME,
     reason_detail TEXT,
-    appointement_status ENUM('Seheduled', 'Completed', 'Canceled', 'No-Show') NOT NULL
+    appointement_status ENUM('Seheduled', 'Completed', 'Canceled', 'No-Show')
     );
 
 -- problem 3
